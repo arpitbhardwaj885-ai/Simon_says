@@ -45,7 +45,7 @@ function checkAns(idx){
         setTimeout(levelup,1000);
        }
     }else{
-        h2.innerText=`GAME OVER! Press any key to start.`;
+        h2.innerHTML=`GAME OVER! Your score was <b>${level}</b> <br> Press any key to start.`;
     }
     document.querySelector("body").style.backgroundColor="red";
     setTimeout(function(){
